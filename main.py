@@ -319,9 +319,3 @@ async def idphoto_crop_inference(
 @app.get("/")
 async def index():
     return {"hello": "欢迎使用 Hivision API"}
-
-if __name__ == "__main__":
-    import uvicorn
-
-    # 在8080端口运行推理服务
-    uvicorn.run(app, host="0.0.0.0", port=8080)
