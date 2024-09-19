@@ -1,3 +1,16 @@
+```bash
+pip freeze > requirements.txt
+```
+
+```bash
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+```bash
+python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+
 <div align="center">
 
 <img alt="hivision_logo" src="assets/hivision_logo.png" width=120 height=120>
