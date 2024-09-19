@@ -316,6 +316,9 @@ async def idphoto_crop_inference(
 
     return result_message
 
+@app.get("/")
+async def index():
+    return {"hello": "欢迎使用 Hivision API"}
 
 if __name__ == "__main__":
     import uvicorn
