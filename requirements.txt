@@ -1,7 +1,11 @@
 opencv-python>=4.8.1.78
 onnxruntime>=1.15.0
 numpy<=1.26.4
-requests
+requests~=2.32.3
 mtcnn-runtime
-tqdm
-starlette
+tqdm~=4.66.5
+starlette~=0.40.0
+gradio~=4.44.1
+pillow~=10.4.0
+uvicorn~=0.30.6
+fastapi~=0.115.0
